@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="226d4444-aa22-4395-ba52-3df48e2a759c" name="Default Changelist" comment="First COmmit to Sele JAVA">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SF/BasicSFTestAuto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SF/Elements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestAutoHybJava.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="226d4444-aa22-4395-ba52-3df48e2a759c" name="Default Changelist" comment="Commit Basic Changes">
+      <change afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SF/Elements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SF/Elements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SF/Elements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SF/Elements.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,15 +58,8 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunManager" selected="TestNG.Elements.TextBoxTest">
-    <configuration name="BasicSFTestAuto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SF.BasicSFTestAuto" />
-      <module name="TestAutoHybJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BasicSFTestAuto.BasicTestAuto" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Elements.CheckBoxTest">
+    <configuration name="Elements (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestAutoHybJava" />
       <extension name="coverage">
         <pattern>
@@ -80,16 +68,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="SF" />
-      <option name="MAIN_CLASS_NAME" value="SF.BasicSFTestAuto" />
-      <option name="METHOD_NAME" value="BasicTestAuto" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="SF.Elements" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Elements (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Elements (4)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestAutoHybJava" />
       <extension name="coverage">
         <pattern>
@@ -123,7 +110,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Elements.TextBoxTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Elements.CheckBoxTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestAutoHybJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SF.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SF" />
+      <option name="MAIN_CLASS_NAME" value="SF.Elements" />
+      <option name="METHOD_NAME" value="CheckBoxTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Elements.TextBoxTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestAutoHybJava" />
       <extension name="coverage">
         <pattern>
@@ -143,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Elements.TextBoxTest" />
+        <item itemvalue="TestNG.Elements.CheckBoxTest" />
         <item itemvalue="TestNG.Elements (1)" />
+        <item itemvalue="TestNG.Elements.TextBoxTest (1)" />
         <item itemvalue="TestNG.Elements" />
-        <item itemvalue="TestNG.BasicSFTestAuto.BasicTestAuto" />
-        <item itemvalue="Application.BasicSFTestAuto" />
+        <item itemvalue="TestNG.Elements (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610246682931</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit Basic Changes">
+      <created>1610253917361</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610253917361</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,6 +196,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First COmmit to Sele JAVA" />
-    <option name="LAST_COMMIT_MESSAGE" value="First COmmit to Sele JAVA" />
+    <MESSAGE value="Commit Basic Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit Basic Changes" />
   </component>
 </project>
