@@ -9,5 +9,8 @@
         <module name="TestAutoHybJava" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="TestAutoHybJava" target="15" />
+    </bytecodeTargetLevel>
   </component>
 </project>
